@@ -63,13 +63,11 @@ function isPrime(n) {
     return n !== 1;
   }
 }
-/*
-module.exports = {
 
+module.exports = {
   sum,
   factorial,
   findLargest,
   countVowels,
   isPrime,
 };
-*/
