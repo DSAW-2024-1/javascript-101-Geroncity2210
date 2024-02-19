@@ -36,7 +36,7 @@ function findLargest(arr) {
 // Count Vowels in a String
 function countVowels(str) {
 if(typeof str === "string"){
-  const vowels = ["a","e","i","o","u"];
+  const vowels = ["a","e","i","o","u","A","E","I","O","U"];
   let cont = 0;
   for (let i = 0;i< str.length;i++) {
     if(vowels.includes(str.charAt(i))){
